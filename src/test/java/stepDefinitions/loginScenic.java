@@ -31,7 +31,7 @@ public class loginScenic {
 	@When("Ingresar usuario y password valido")
 	public void Ingresar_usuario_y_password_valido() {
 		driver.findElement(By.id("login_usuario")).sendKeys("");
-        driver.findElement(By.id("login_contrasenya")).sendKeys("");
+        driver.findElement(By.id("login_contrasenya")).sendKeys(" ");
 	}
 	
 	@Then("Dar clic en ingresar")
