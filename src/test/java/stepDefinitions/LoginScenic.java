@@ -31,8 +31,6 @@ public class LoginScenic {
 
 	@When("Ingresar usuario y password valido")
 	public void Ingresar_usuario_y_password_valido() {
-		// driver.findElement(By.id("login_usuario")).sendKeys("N3218862");
-		// driver.findElement(By.id("login_contrasenya")).sendKeys("N3Gr1T0N0V");
 		loginPage.setUserPass();
 	}
 

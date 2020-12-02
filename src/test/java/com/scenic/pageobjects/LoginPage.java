@@ -17,8 +17,8 @@ public class LoginPage extends BaseConfig {
 	By imgNameApp = By.xpath("//*[@id=\\\"nombreApp\\\"]/img");
 
 	public void setUserPass() {
-		setText(inputUsuario, "N3218862");
-		setText(inputContrasena, "N3Gr1T0N0V");
+		setText(inputUsuario, "..");
+		setText(inputContrasena, "..");
 	}
 
 	public void access() {
