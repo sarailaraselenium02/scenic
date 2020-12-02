@@ -12,6 +12,10 @@ formatter.feature({
     }
   ]
 });
+formatter.before({
+  "duration": 6116446578,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 9,
   "name": "Acceder exitosamente a la pagina",
@@ -57,46 +61,40 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "loginScenic.Ingresar_a_la_pagina_de_scenic()"
+  "location": "LoginScenic.ingresar_a_la_pagina_de_scenic()"
 });
 formatter.result({
-  "duration": 10594085214,
+  "duration": 7950272062,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginScenic.Ingresar_usuario_y_password_valido()"
+  "location": "LoginScenic.Ingresar_usuario_y_password_valido()"
 });
 formatter.result({
-  "duration": 251088838,
+  "duration": 317735567,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginScenic.Dar_clic_en_ingresar()"
+  "location": "LoginScenic.Dar_clic_en_ingresar()"
 });
 formatter.result({
-  "duration": 12122739333,
+  "duration": 15194444159,
   "status": "passed"
 });
 formatter.match({
-  "location": "loginScenic.Deberia_ir_a_la_pagina_de_scenic()"
+  "location": "LoginScenic.Deberia_ir_a_la_pagina_de_scenic()"
 });
 formatter.result({
-  "duration": 258747133,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginScenic.Dar_clic_a_cliente()"
-});
-formatter.result({
-  "duration": 64465058,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginScenic.Seleccionar_linea_de_negocio()"
-});
-formatter.result({
-  "duration": 9250860550,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00274.0.0-alpha-5\u0027, revision: \u0027b3a0d621cc\u0027\nSystem info: host: \u0027HDFLAPLARASR\u0027, ip: \u002710.173.42.9\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\\Users\\larasr\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3a924b82bfa157de1198e9e105f7b8ac\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:115)\r\n\tat stepDefinitions.loginScenic.Seleccionar_linea_de_negocio(loginScenic.java:72)\r\n\tat ✽.Then Seleccionar linea de negocio(C:/Users/larasr/eclipse2-workspace/ScenicTest/src/test/java/feature/scenic.feature:15)\r\n",
+  "duration": 231778351,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepDefinitions.LoginScenic.Deberia_ir_a_la_pagina_de_scenic(LoginScenic.java:50)\r\n\tat ✽.Then Deberia ir a la pagina de scenic(C:/Users/larasr/eclipse2-workspace/ScenicTest/src/test/java/feature/scenic.feature:13)\r\n",
   "status": "failed"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });
